@@ -1,0 +1,15 @@
+# AWS CDK dependencies
+aws-cdk-lib>=2.0.0
+constructs>=10.0.0
+
+# AWS SDK dependencies
+boto3>=1.20.0
+botocore>=1.23.0
+
+# Database dependencies
+pymssql>=2.2.0
+
+# MCP dependencies
+fastmcp>=0.1.0
+
+# Any additional dependencies your stacks might need
