@@ -1,0 +1,24 @@
+{
+  "name": "aws-location-server",
+  "version": "0.1.0",
+  "description": "MCP Server for AWS Location Service",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node --input-type=module -e \"import { chmod } from 'fs/promises'; await chmod('build/index.js', '755');\"",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@aws-sdk/client-location": "^3.758.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
