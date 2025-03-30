@@ -1,0 +1,6 @@
+aws-cdk-lib>=2.0.0
+constructs>=10.0.0
+
+# Add other dependencies required by your stacks if any
+# For example, if using specific L2 constructs not in the core lib:
+# aws-cdk.aws-lambda-python-alpha
