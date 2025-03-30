@@ -1,0 +1,3 @@
+boto3>=1.20.0
+fastmcp>=0.1.0 # Replace with actual version constraint if known
+# Add any other dependencies the server might need
